@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* New styles */
+.admin-container {
+  font-family: 'Poppins', sans-serif;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.header-background {
+  position: relative;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  color: white;
+  z-index: 1; 
+}
+  
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  .intro-section {
+    margin-top: 80px; /* Adjust as needed */
+    text-align: center;
+  }
+  
+  .intro-text {
+    margin-top: 60px; /* Adjust as needed */
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    text-align: center;
+    max-width: 800px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+  }
+  
+  .intro-title {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px; /* Adjust as needed */
+    padding-left: 10px; /* Adjust the left padding as needed */
+    padding-right: 10px; /* Adjust the right padding as needed */
+  }
+  
+  .intro-paragraph {
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+  .intro-paragraph p {
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    margin: 0; /* Remove default margin for nested <p> tag */
+  }
+
+
+.two-sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .image-section {
+    max-width: 45%;
+    margin: 10px;
+  }
+  
+  .image img {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .image-section img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-us-section {
+    text-align: center;
+    max-width: 50%; /* Adjust as needed */
+  }
+  
+  .about-us-title {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10px; /* Add margin between title and paragraph */
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+  }
+  
+  .about-us-content {
+    max-width: 400px; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif; /* Set font to Poppins */
+  }
+  
+  .learn-more-button {
+    margin-top: 15px; /* Adjust as needed */
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .learn-more-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+
+  .scroll-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #808080; /* Adjust the color as needed */
+    border: none;
+    padding: 10px; /* Adjust this value to make it square */
+    width: 40px; /* Adjust this value to make it square */
+    height: 40px; /* Adjust this value to make it square */
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 20px;
+    outline: none;
+    line-height: 1; /* Set line height to 1 for vertical centering */
+  }
